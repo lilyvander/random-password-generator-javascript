@@ -21,8 +21,10 @@ var passwordCharSet = "";
 var passwordLength = window.prompt('Enter a password length between 8 and 128');
 
 // Validate input
-if (passwordLength <= 8 && passwordLength >= 128) {
-    window.alert('Please enter a number between the given range.')
+if (passwordLength >=8 && passwordLength <=128) {
+    window.alert('valid');
+} else {
+    window.alert('invaild');
 }
 
 //Character sets 
